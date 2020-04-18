@@ -1,0 +1,6 @@
+version: '3.0'
+services:
+  app:
+    build: .
+    volumes:
+    - ./data/:/code/data/
