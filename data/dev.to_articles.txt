@@ -1,108 +1,108 @@
 https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke
-14 min read 1083 likes 40 comments
-----------------------------------------
-https://dev.to/carolstran/onboarding-a-junior-developer-to-your-team-here-s-12-tips-4g3a
-4 min read 598 likes 48 comments
-----------------------------------------
-https://dev.to/gkoniaris/how-to-securely-store-jwt-tokens-51cf
-6 min read 521 likes 43 comments
-----------------------------------------
-https://dev.to/sargalias/how-to-learn-web-application-security-2ji1
-4 min read 469 likes 10 comments
-----------------------------------------
-https://dev.to/sargalias/how-to-learn-web-application-security-2ji1
-4 min read 469 likes 10 comments
+14 min read 1169 likes 41 comments
 ----------------------------------------
 https://dev.to/emmabostian/i-passed-the-google-technical-interviews-you-can-too-4i6m
-11 min read 428 likes 22 comments
-----------------------------------------
-https://dev.to/jsco/how-to-build-bulletproof-react-components-mo7
-6 min read 251 likes 10 comments
+11 min read 487 likes 25 comments
 ----------------------------------------
 https://dev.to/duomly/how-to-create-a-simple-dashboard-using-bootstrap-in-5-minutes-2p4o
-8 min read 247 likes 6 comments
+8 min read 294 likes 10 comments
+----------------------------------------
+https://dev.to/hichamelbsi/strapi-another-use-case-build-your-own-api-from-any-website-with-puppeteer-h92
+5 min read 254 likes 7 comments
+----------------------------------------
+https://dev.to/hichamelbsi/strapi-another-use-case-build-your-own-api-from-any-website-with-puppeteer-h92
+5 min read 254 likes 7 comments
 ----------------------------------------
 https://dev.to/caroso1222/please-stop-doing-this-in-your-resume-2mga
-4 min read 225 likes 21 comments
-----------------------------------------
-https://dev.to/azure/try-gh-github-s-new-cli-33j7
-3 min read 185 likes 4 comments
+4 min read 248 likes 22 comments
 ----------------------------------------
 https://dev.to/tulsi_prasad/making-responsive-layouts-without-using-media-queries-59o7
-4 min read 176 likes 6 comments
-----------------------------------------
-https://dev.to/gafi/i-built-a-site-with-the-best-coding-fonts-295h
-1 min read 176 likes 30 comments
+4 min read 206 likes 8 comments
 ----------------------------------------
 https://dev.to/nialljoemaher/dockerize-your-development-environment-1a50
-3 min read 176 likes 8 comments
+3 min read 204 likes 8 comments
 ----------------------------------------
-https://dev.to/designmodo/startup-s-online-editor-is-here-a-bootstrap-builder-bch
-3 min read 162 likes 8 comments
+https://dev.to/gafi/i-built-a-site-with-the-best-coding-fonts-295h
+1 min read 182 likes 31 comments
 ----------------------------------------
 https://dev.to/hasanmehmood/docker-cheat-sheet-57b8
-2 min read 164 likes 3 comments
+2 min read 171 likes 4 comments
 ----------------------------------------
-https://dev.to/sm0ke/free-admin-dashboards-coded-by-freelancers-36fn
-4 min read 150 likes 7 comments
-----------------------------------------
-https://dev.to/swyx/marketing-yourself-without-being-a-celebrity-398d
-28 min read 144 likes 7 comments
-----------------------------------------
-https://dev.to/emtes/so-linux-3i9k
-7 min read 148 likes 12 comments
-----------------------------------------
-https://dev.to/siradji/how-to-be-a-better-react-developer-3je9
-4 min read 142 likes 14 comments
+https://dev.to/gkoniaris/nodejs-logging-from-beginner-to-expert-30a6
+15 min read 168 likes 7 comments
 ----------------------------------------
 https://dev.to/helleworld_/5-css-useful-properties-i-ignored-2930
-2 min read 139 likes 14 comments
+2 min read 162 likes 16 comments
+----------------------------------------
+https://dev.to/designmodo/startup-s-online-editor-is-here-a-bootstrap-builder-bch
+3 min read 162 likes 16 comments
+----------------------------------------
+https://dev.to/swyx/marketing-yourself-without-being-a-celebrity-398d
+28 min read 151 likes 7 comments
+----------------------------------------
+https://dev.to/emtes/so-linux-3i9k
+7 min read 153 likes 12 comments
+----------------------------------------
+https://dev.to/azure/learn-how-you-can-get-started-with-docker-and-kubernetes-2n51
+3 min read 151 likes 3 comments
+----------------------------------------
+https://dev.to/siradji/how-to-be-a-better-react-developer-3je9
+4 min read 147 likes 14 comments
 ----------------------------------------
 https://dev.to/ibrahima92/how-to-style-your-react-apps-with-less-code-using-tailwind-css-and-styled-components-301a
-6 min read 136 likes 5 comments
-----------------------------------------
-https://dev.to/nebrelbug/i-built-a-js-template-engine-3x-faster-than-ejs-lj8
-3 min read 125 likes 4 comments
+6 min read 147 likes 6 comments
 ----------------------------------------
 https://dev.to/ilonacodes/frontend-shorts-how-to-create-link-content-previewer-with-react-vue-and-vanilla-javascript-1pm1
-8 min read 121 likes 7 comments
+8 min read 135 likes 9 comments
 ----------------------------------------
 https://dev.to/helenanders26/7-things-to-consider-when-writing-your-next-blog-post-ioo
-5 min read 112 likes 11 comments
-----------------------------------------
-https://dev.to/devteam/introducing-the-codenewbie-daily-check-ehin-thread-3mck
-2 min read 100 likes 5 comments
-----------------------------------------
-https://dev.to/philnash/i-built-a-vscode-extension-ngrok-for-vscode-29f7
-3 min read 114 likes 8 comments
-----------------------------------------
-https://dev.to/olamideaboyeji/building-a-url-shortening-service-with-nodejs-and-mongobb-deploy-to-azure-oep
-9 min read 113 likes 16 comments
-----------------------------------------
-https://dev.to/techschoolguru/how-to-create-sign-ssl-tls-certificates-2aai
-10 min read 109 likes 16 comments
-----------------------------------------
-https://dev.to/shahzzoda/offers-from-amazon-apple-and-facebook-things-i-wish-i-knew-3hgd
-14 min read 108 likes 6 comments
-----------------------------------------
-https://dev.to/olivierloverde/es2020-summary-of-new-features-examples-2260
-4 min read 105 likes 6 comments
+5 min read 120 likes 12 comments
 ----------------------------------------
 https://dev.to/nas5w/create-your-own-elegant-code-screenshots-with-carbon-357l
-1 min read 102 likes 5 comments
+1 min read 118 likes 5 comments
+----------------------------------------
+https://dev.to/robole/html-nuggets-little-bits-that-you-may-have-forgotten-never-learned-never-realised-or-ignored-5d2e
+10 min read 120 likes 8 comments
+----------------------------------------
+https://dev.to/devteam/introducing-the-codenewbie-daily-check-ehin-thread-3mck
+2 min read 102 likes 5 comments
+----------------------------------------
+https://dev.to/olamideaboyeji/building-a-url-shortening-service-with-nodejs-and-mongobb-deploy-to-azure-oep
+9 min read 115 likes 16 comments
+----------------------------------------
+https://dev.to/philnash/i-built-a-vscode-extension-ngrok-for-vscode-29f7
+3 min read 115 likes 8 comments
+----------------------------------------
+https://dev.to/olivierloverde/es2020-summary-of-new-features-examples-2260
+4 min read 106 likes 6 comments
+----------------------------------------
+https://dev.to/nas5w/if-you-write-it-they-will-come-20gk
+1 min read 100 likes 18 comments
 ----------------------------------------
 https://dev.to/catcarbn/explain-async-await-like-i-m-five-gde
-1 min read 103 likes 23 comments
+1 min read 105 likes 23 comments
 ----------------------------------------
 https://dev.to/adityasridhar/what-are-callbacks-in-javascript-and-how-to-use-them-25ah
-5 min read 97 likes 2 comments
+5 min read 99 likes 2 comments
+----------------------------------------
+https://dev.to/devteam/new-feature-response-templates-35jp
+2 min read 87 likes 15 comments
+----------------------------------------
+https://dev.to/travislramos/free-coding-classes-during-covid-19-3nb1
+3 min read 101 likes 3 comments
 ----------------------------------------
 https://dev.to/elaziziyoussouf/graphql-front-end-superpower-109g
-5 min read 100 likes 1 comments
+5 min read 102 likes 1 comments
 ----------------------------------------
 https://dev.to/amanhimself/blogging-tips-after-3-years-and-a-100-posts-3
-6 min read 98 likes 5 comments
+6 min read 99 likes 5 comments
 ----------------------------------------
 https://dev.to/peter/github-is-now-free-for-teams-ekm
-1 min read 87 likes 10 comments
+1 min read 89 likes 10 comments
+----------------------------------------
+https://dev.to/napicella/aws-networking-cheat-sheet-eip-eni-vpc-etc-139m
+11 min read 98 likes 10 comments
+----------------------------------------
+https://dev.to/devmount/4-php-tricks-to-boost-script-performance-ol1
+3 min read 96 likes 23 comments
 ----------------------------------------

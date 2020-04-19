@@ -2,6 +2,10 @@
 
 this tool helps me to collect interesting articles from the platforms that I generally visit on the internet. I first implemented dev.to. in the future I have a plan to add more platforms into it.
 
+### **News Resources**
+-   [dev.to](https://dev.to/)
+-   [weforum.org/reports](https://weforum.org/reports)
+
 ### **Usage**
 
 if you have docker and docker-compose just use it!
