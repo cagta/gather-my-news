@@ -17,7 +17,9 @@ from bs4 import BeautifulSoup
 """
 def get_html(prefix, host, postfix):
     url = prefix + host
-    html = urllib.request.urlopen(url+postfix).read()
+    req = urllib.request.Request(url+postfix)
+    req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0')
+    html = urllib.request.urlopen(req).read()
     return html
 
 """
@@ -28,18 +30,12 @@ def get_html(prefix, host, postfix):
 
     @return True if operation is error free otherwise False.
 """
-def write_to_file(filepath, article_list, has_statistics):
+def write_to_file(filepath, article_list):
     try:
         with open(filepath, 'w') as f:
-            if(has_statistics):
-                for item in article_list:
-                    f.write("%s\n" % item['url'])
-                    f.write("%s %s likes %s comments\n" % (item['statistics']))
-                    f.write("-"*40+"\n")
-            else:
-                for item in article_list:
-                    f.write("%s\n" % item['url'])
-                    f.write("-"*40+"\n")
+            for item in article_list:
+                f.write("%s\n" % item['url'])
+                f.write("-"*40+"\n")
         return True
     except Exception as e:
         print(e)
@@ -60,22 +56,17 @@ def gather_from_devto(timeframe):
         postfix = "/top/"+timeframe
         url = prefix + host
         html = get_html(prefix, host, postfix)
-        
+
 
         soup = BeautifulSoup(html, 'html.parser')
-        #print(soup.find_all(id='articles-list'))
+        
         article_list = []
-        for item in soup.find_all(id='articles-list')[0].find_all('div', 'single-article'):
-            if item.find('div', 'reactions-count'):
-                likes = item.find('div', 'reactions-count').get_text().strip()
-            if item.find('div', 'comments-count') is not None:
-                comments = item.find('div', 'comments-count').get_text().strip()
-            if item.find('a', 'article-reading-time'):
-                time = item.find('a', 'article-reading-time').get_text().strip()
-                article_postfix = item.find('a', 'article-reading-time')['href']
-            article_list.append({ 'url':url+article_postfix, 'statistics':(time, likes, comments)})
+        for item in soup.find_all(id='articles-list')[0].find_all('h2', 'crayons-story__title'):
+            if item.find('a'):
+                article_postfix = item.find('a')['href']
+            article_list.append({ 'url':url+article_postfix})
 
-        if article_list and write_to_file('data/'+host+'_articles.txt', article_list, True):
+        if article_list and write_to_file('data/'+host+'_articles.txt', article_list):
             print('For '+ host + ' outputs can be found at ', 'data/'+host+'_articles.txt')
         else:
             print('No updates for ' + host)
@@ -115,7 +106,7 @@ def gather_from_weforum(howOld, limit):
                 article_postfix = article.find('a','tout__link')['href']
                 article_list.append({'url': url+article_postfix})
 
-        if article_list and write_to_file('data/'+host+'_articles.txt', article_list, False):
+        if article_list and write_to_file('data/'+host+'_articles.txt', article_list):
             print('For '+ host + ' outputs can be found at ', 'data/'+host+'_articles.txt')
         else:
             print('No updates for ' + host)
@@ -124,5 +115,5 @@ def gather_from_weforum(howOld, limit):
         print(e)
         return False
 
-#gather_from_devto("week")
+gather_from_devto("week")
 gather_from_weforum(20, 10)
