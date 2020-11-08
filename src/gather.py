@@ -98,13 +98,12 @@ def gather_from_weforum(howOld, limit):
         soup = BeautifulSoup(html, 'html.parser')
 
         article_list= []
-        
-        for article in soup.find_all('article')[:limit]:
-            publish_date = article.find('div','caption').get_text().split('—')[1].strip()
+        for article in soup.find_all('div', 'report-listing-tout__content')[:limit]:
+            publish_date = article.find('div','report-listing-tout__date').get_text().strip()
             publish_as_datetime = datetime.strptime(publish_date,"%d %B %Y")
             if ((datetime.today() - publish_as_datetime).days <= howOld):
-                article_postfix = article.find('a','tout__link')['href']
-                article_list.append({'url': url+article_postfix})
+                article_postfix = article.find('a','report__link')['href']
+                article_list.append({'url': article_postfix})
 
         if article_list and write_to_file('data/'+host+'_articles.txt', article_list):
             print('For '+ host + ' outputs can be found at ', 'data/'+host+'_articles.txt')
