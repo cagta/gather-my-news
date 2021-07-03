@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import re
 import urllib.request
 from datetime import datetime
 
@@ -61,7 +60,8 @@ def gather_from_devto(timeframe):
         soup = BeautifulSoup(html, 'html.parser')
         
         article_list = []
-        for item in soup.find_all(id='articles-list')[0].find_all('h2', 'crayons-story__title'):
+
+        for item in soup.find_all(id='main-content')[0].find_all('h2', 'crayons-story__title'):
             if item.find('a'):
                 article_postfix = item.find('a')['href']
             article_list.append({ 'url':url+article_postfix})
@@ -102,9 +102,9 @@ def gather_from_weforum(howOld, limit):
             publish_date = article.find('div','report-listing-tout__date').get_text().strip()
             publish_as_datetime = datetime.strptime(publish_date,"%d %B %Y")
             if ((datetime.today() - publish_as_datetime).days <= howOld):
-                article_postfix = article.find('a','report__link')['href']
-                article_list.append({'url': article_postfix})
-
+                article_postfix = article.find('a','report-listing-tout__cta')['href']
+                article_list.append({'url': url+article_postfix})
+        
         if article_list and write_to_file('data/'+host+'_articles.txt', article_list):
             print('For '+ host + ' outputs can be found at ', 'data/'+host+'_articles.txt')
         else:
